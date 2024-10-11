@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Bento Cake",
+        "price": 1500,
+        "image": "Bento.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Brownies",
+        "price": 200,
+        "image": "brownies.jpg"
+    },
+    {
+        "id": 3,
+        "name": "choco moist",
+        "price": 200,
+        "image": "chocoMoist.jpg"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Crinkles",
+        "price": 50,
+        "image": "Crinkles.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Mousse Cake",
+        "price": 200,
+        "image": "mousseCake.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Cup Cake",
+        "price": 100,
+        "image": "Cake.jpg"
+    }
+]
