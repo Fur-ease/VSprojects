@@ -1,6 +1,4 @@
 
-//const nameError = document.getElementById('.Name_error');
-
 let listCart = [];
 
 function checkCart() {
@@ -102,7 +100,7 @@ $(document).ready(function() {
 
         $.ajax({
             type: "POST",
-            url: "backend/server.php",
+            url: "../backend/server.php",
             data: JSON.stringify({cart : listCart, formData: formData}), 
             contentType: "application/json", 
             success: function(response) {

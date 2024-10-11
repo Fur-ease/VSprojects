@@ -6,9 +6,9 @@
     
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <link rel="icon" type="image/jpg" href="DavaoLogo.jpg" style="border-radius: 50%;"> 
+    <link rel="icon" type="image/jpg" href="../pictures/DavaoLogo.jpg" style="border-radius: 50%;"> 
     <title>checkout</title>
-    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="../src/css/cart.css">
 </head>
 <body>
     
@@ -41,17 +41,20 @@
             <div class="form">
                 <div class="group">
                     <label for="name">Full Name</label>
-                    <input type="text" name="name" id="name" placeholder="full name">
+                    <input type="text" name="name" id="name" placeholder="full name" required>
+                    <span class="Name_error" style="color: white;"></span>
                 </div>
     
                 <div class="group">
                     <label for="phone">Phone Number</label>
-                    <input type="text" name="phone" id="phone" placeholder="Enter Mpesa Number">
+                    <input type="text" name="phone" id="phone" placeholder="Enter Mpesa Number" required>
+                    <span class="Phone_error" style="color: white;"></span>
                 </div>
     
                 <div class="group">
                     <label for="address">Address</label>
-                    <input type="text" name="address" id="address" placeholder="enter your adress">
+                    <input type="text" name="address" id="address" placeholder="enter your adress" required>
+                    <span class="Address_error" style="color: white;"></span>
                 </div>
     
                 <div class="group">
@@ -61,6 +64,7 @@
                         <option value="">Kingdom</option>
                         <option value="">mombasa</option>
                     </select>
+                    <span class="Country_error" style="color: white;"></span>
                 </div>
     
                 <div class="group">
@@ -69,6 +73,7 @@
                         <option value="">Choose..</option>
                         <option value="">London</option>
                     </select>
+                    <span class="City_error" style="color: white;"></span>
                 </div>
             </div>
             <div class="return">
@@ -87,7 +92,7 @@
 </div>
 
 
-<script src="checkout.js"></script>
+<script src="../src/js/checkout.js"></script>
 
 </body>
 </html>
